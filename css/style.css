@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+  background-color: #605751;
+}
+input[type='text'],
+[type='number'] {
+  border: none;
+  border-bottom: solid 1px #121212;
+  padding: 10px 0;
+  width: 400px;
+}
+
+textarea {
+  padding: 10px 5px;
+  width: 400px;
+}
+
+/* header container */
+.header-container {
+  height: 160px;
+  padding: 20px;
+  background-color: #ff6200;
+}
+.header-container,
+h3 {
+  color: #ffffff;
+}
+
+/* Form container */
+.form-container {
+  background-color: #ffffff;
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: -62px;
+  border-radius: 5px;
+}
+/* header */
+.primeiro-paragrafo {
+  color: #605751;
+  border-bottom: 2px solid #ff6200;
+  width: 100px;
+  text-align: center;
+  margin: 0 auto;
+  text-transform: uppercase;
+  height: 45px;
+  line-height: 45px;
+}
+
+/* form-body */
+.form-body {
+  padding: 30px;
+}
+
+/* form-titulo */
+.form-titulo {
+  margin-bottom: 15px;
+  color: #605751;
+}
+.segundo-paragrafo {
+  margin-bottom: 20px;
+}
+
+/* require obrigatório */
+
+.obrigatório {
+  color: red;
+}
+/* inputs container */
+.inputs-container {
+  margin-bottom: 35px;
+}
+
+/* display block */
+.block {
+  display: block;
+}
+
+/* Container de opções */
+.opcoes-container {
+  display: inline-block;
+  margin: 0 30px 30px 0;
+}
+.opcoes-container li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+.opcoes-container p {
+  margin-bottom: 10px;
+}
+
+.botao-containner {
+  text-align: center;
+  margin: 0 auto;
+}
+
+input[type='submit'] {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  background-color: #ff6200;
+  color: #ffffff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type='submit']:hover {
+  background-color: #605751;
+  color: #ff6200;
+}
